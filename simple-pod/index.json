@@ -1,0 +1,29 @@
+{
+  "title": "Taller Pod",
+  "description": "El objetivo del taller es crear un pod simple en un ambiente de Kubernetes",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Crear el archivo descriptor",
+        "text": "step1.md"
+      },
+      {
+        "title": "Aplicar el archivo de configuración",
+        "text": "step2.md"
+      },
+      {
+        "title": "Verificar la creación del Pod",
+        "text": "step3.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
