@@ -1,0 +1,29 @@
+{
+  "title": "Taller Probes",
+  "description": "El objetivo del taller es configurar probes en un despliegue de kubernetes",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Crear el archivo descriptor",
+        "text": "step1.md"
+      },
+      {
+        "title": "Aplicar el archivo de configuración",
+        "text": "step2.md"
+      },
+      {
+        "title": "Modifica los probes y verifica correcto funcionamiento",
+        "text": "step3.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
