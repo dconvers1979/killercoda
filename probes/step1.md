@@ -28,7 +28,7 @@ spec:
           startupProbe:
             httpGet:
               path: /index_temporal.html
-              port: startup-port
+              port: 80
             periodSeconds: 5
             initialDelaySeconds: 5
             successThreshold: 1
@@ -36,7 +36,7 @@ spec:
           readinessProbe:
             httpGet:
               path: /index_temporal.html
-              port: readiness-port
+              port: 80
             periodSeconds: 5
             initialDelaySeconds: 5
             successThreshold: 2
