@@ -6,6 +6,6 @@ Una de las formas de configurar o personalizar el comportamiento de un Pod es po
 
 En algunos casos la información configurable puede ser información sensible, como por ejemplo credenciales de usuarios de base de datos, tokens de acceso entre otros. 
 
-La información sencible en Kubernetes la manejamos por medio de los Secrets.
+La información sensible en Kubernetes la manejamos por medio de los Secrets.
 
-En este taller revisaremos como usar los secrets para manejar información vinculada a variables de ambiente. 
+En este taller revisaremos como usar los Secrets para manejar información vinculada a variables de ambiente. 

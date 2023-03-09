@@ -6,7 +6,7 @@ En la respuesta del comando debe estar el pod que creamos con el nombre **mi-pri
 
 Si queremos verificar la metadata del pod ejecutamos el comando:
 
-`kubectl describe pod mysql-server `{{exec}}
+`kubectl describe pod nginx `{{exec}}
 
 De esta forma podemos comprobar los eventos y metadata como los labels, las variables de ambiente, los puertos, y otros detalles.
 

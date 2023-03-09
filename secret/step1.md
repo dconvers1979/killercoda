@@ -15,7 +15,7 @@ data:
 
 ```{{copy}}
 
-Este archivo crea el secret con tres parámetros.
+Este archivo crea el Secret con tres parámetros.
 
 1. DB_USER
 2. DB_PASSWORD

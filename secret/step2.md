@@ -36,4 +36,4 @@ Una vez creado el archivo, aplicamos la configuración del archivo por medio del
 
 Esta instrucción creará el Pod
 
-Las variables se vinculan por medio del nombre del secret que creamos anteriormente, y haciendo referencia al nombre del secret y a la llave que identifica el dato a usar. 
+Las variables se vinculan por medio del nombre del secret que creamos anteriormente y la llave que identifica el dato a usar. 
